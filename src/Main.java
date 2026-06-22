@@ -2,6 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
+		
 		int idade;
 		double salario, altura;
 		char genero;
