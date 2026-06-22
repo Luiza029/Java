@@ -9,13 +9,13 @@ public class Main {
 		String nome;
 		
 		idade = 19;
-		salario = 2.650;
+		salario = 2655;
 		altura = 1.65;
 		genero = 'F';
 		nome = "Luiza";
 		
 		System.out.println("Idade: " + idade);
-		System.out.println("Salario: " + salario);
+		System.out.println("Salario: " + String.format("%.2f", salario));
 		System.out.println("Altura: "+ altura);
 		System.out.println("Genero: " + genero);
 		System.out.println("Nome: " + nome);
