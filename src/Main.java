@@ -9,7 +9,7 @@ public class Main {
 		String nome;
 		
 		idade = 19;
-		salario = 2.500;
+		salario = 2.600;
 		altura = 1.65;
 		genero = 'F';
 		nome = "Luiza";
