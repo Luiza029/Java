@@ -59,6 +59,8 @@ public class Entrada_de_dados {
 		System.out.println("Sexo da Primeira pessoa: " + sexo1);
 		System.out.println("Sexo da Segunda pessoa: " + sexo2);
 		
+		System.out.println();
+		
 		System.out.println("Idade da Primeira pessoa: " + idade1);
 		System.out.println("Idade da Segunda pessoa: " + idade2);
 	}

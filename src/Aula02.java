@@ -5,7 +5,7 @@ public class Aula02 {
 		int a, b;
 		double resultado;
 		
-		a = 5;
+		a = 3;
 		b = 2;
 		
 		resultado = (double)a / b;
