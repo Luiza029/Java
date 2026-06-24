@@ -1,22 +1,26 @@
+package Aulas;
 import java.util.Scanner;
-public class For {
+public class Vetores {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int n, i, x, soma = 0;
+		int n, i;
 		
 		System.out.println("Digite quantos numeros serao digitados: ");
 		n = sc.nextInt();
 		
+		double[] vet = new double[n];
+		
 		for(i=0; i<n; i++) {
 			System.out.println("Digite um numero: ");
-			x = sc.nextInt();
-			
-			soma += x;
+			vet[i] = sc.nextDouble();
 		}
 		
-		System.out.println("Soma: " + soma);
+		System.out.println("Numeros digitados: ");
+		for(i=0; i<n; i++) {
+			System.out.println(String.format("%.1f", vet[i]));
+		}
 	}
 
 }
