@@ -24,7 +24,7 @@ public class Diagonal_negativo {
 		for(i=0; i<l; i++) {
 			for(j=0; j<c; j++) {
 				if(i == j) {
-					System.out.println(mat[i][j]);
+					System.out.print(mat[i][j] + " ");
 				}
 				
 				if(mat[i][j] < 0) {
