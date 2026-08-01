@@ -29,7 +29,8 @@ public class Menor_de_Tres {
 		}
 		
 		System.out.println("MAIOR: " + maior);
-
+		
+		sc.close();
 	}
 
 }

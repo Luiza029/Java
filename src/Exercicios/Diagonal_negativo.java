@@ -35,7 +35,8 @@ public class Diagonal_negativo {
 		
 		System.out.println();
 		System.out.println("Quantidade de Negativos: " + cont);
-
+		
+		sc.close();
 	}
 
 }

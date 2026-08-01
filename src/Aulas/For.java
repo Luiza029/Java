@@ -18,6 +18,8 @@ public class For {
 		}
 		
 		System.out.println("Soma: " + soma);
+		
+		sc.close();
 	}
 
 }

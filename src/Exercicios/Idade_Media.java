@@ -25,7 +25,8 @@ public class Idade_Media {
 		media = (double) soma / n;
 		
 		System.out.println("A idade media eh de: " + String.format("%.1f", media));
-
+		
+		sc.close();
 	}
 
 }

@@ -64,6 +64,8 @@ public class Entrada_de_dados {
 		
 		System.out.println("Idade da Primeira pessoa: " + idade1);
 		System.out.println("Idade da Segunda pessoa: " + idade2);
+		
+		sc.close();
 	}
 
 }
