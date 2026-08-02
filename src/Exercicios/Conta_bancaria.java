@@ -32,7 +32,6 @@ public class Conta_bancaria {
 		
 		Dados d1 = new Dados(numConta, nome, deposito);
 		String depositar;
-		d1.deposito(67676767);
 		
 		System.out.println(d1);
 		
