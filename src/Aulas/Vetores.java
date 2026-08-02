@@ -21,6 +21,8 @@ public class Vetores {
 		for(i=0; i<n; i++) {
 			System.out.println(String.format("%.1f", vet[i]));
 		}
+		
+		sc.close();
 	}
 
 }
