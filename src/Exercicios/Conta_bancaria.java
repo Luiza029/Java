@@ -1,5 +1,6 @@
 package Exercicios;
 import java.util.Scanner;
+
 import entities.Dados;
 
 public class Conta_bancaria {

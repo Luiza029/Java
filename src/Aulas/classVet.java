@@ -1,5 +1,6 @@
 package Aulas;
 import java.util.Scanner;
+
 import entities.Vetores;
 
 public class classVet {
