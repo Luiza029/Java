@@ -29,7 +29,7 @@ public class pensionato {
 			vet[quarto] = new Pensionato_Class(nome, email);
 		}
 		
-		for(int i=1; i<=9; i++) {
+		for(int i=0; i<=10; i++) {
 			if(vet[i] != null) {
 				System.out.println(i+ " :" +vet[i]);
 			}
